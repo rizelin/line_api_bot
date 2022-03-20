@@ -1,0 +1,200 @@
+@import url('./reset.css');
+
+/* header */
+.header_nav {
+    margin-top:50px;
+    padding: 10px 3%;
+    text-align: center;
+}
+#navi > li {
+    display: inline-block;
+    border-bottom: 1px solid rgb(0,0,0);
+    padding: 10px 5px 5px;
+}
+#navi > li > a {
+    color: rgb(1,116,213);
+    font-size: 20px;
+}
+#navi li {
+    margin: 5px 15px;
+}
+/* body */
+.body {
+    width: 100%;
+}
+.title_name {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: block;
+    border-bottom:3px solid black;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-bottom: 5px;
+}
+/* body-login */
+.login_form {
+    text-align: center;
+    margin: 100px auto;
+    font-family: serif;
+}
+.login_form > input {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+}
+.body_from{
+    display: block;
+    padding: 10px 0px 10px 5%;
+    font-size: 20px;
+    margin: 10px 0px;
+    font-family: serif;
+    font-weight: bold;
+}
+.body_from > select,.body_from > input {
+    display: block;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+}
+.body > #employee_date {
+    font-size: 28px;
+    padding-left: 5%;
+    font-family: serif;
+    font-weight: bold;
+}
+/* body-table */
+.body > .main_table {
+    width: 1200px;
+    display: block;
+    margin: 0px auto 100px auto ;
+    overflow: auto;
+}
+.body > .main_table > table {
+    margin: auto;
+}
+/* .body > table > tbody{
+    display: block;
+    margin: auto;
+} */
+ .error{
+   background-color: rgb(255, 217, 217);
+ }
+
+table.type02 {
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  margin : 20px 10px;
+}
+table.type02 th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  background: #eee;
+}
+table.type02 td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+table.type08 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-left: 1px solid #ccc;
+    margin: 20px 10px;
+}
+
+table.type08 thead th {
+    padding: 10px;
+    font-weight: bold;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 2px solid #c00;
+    background: #dcdcd1;
+}
+table.type08 tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background: #ececec;
+}
+table.type08 td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+table.type09 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+
+}
+table.type09 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+table.type09 tbody th {
+    /* width: 150px; */
+    white-space: nowrap;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left:  1px solid #ccc;
+    background: #f3f6f7;
+}
+table.type09 td {
+    width: 300px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+table.type11 {
+    border-collapse: separate;
+    border-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px 10px;
+}
+table.type11 th {
+    width: 155px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #fff;
+    background: #489cce ;
+}
+table.type11 td {
+    width: 155px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+}
